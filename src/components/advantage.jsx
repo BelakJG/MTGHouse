@@ -5,6 +5,7 @@ function Advantage({ numAdvantage, setNumAdvantage }) {
       <input
         type="number"
         name="advantageCount"
+        id="advantageCount"
         value={numAdvantage}
         onChange={(e) => setNumAdvantage(Number(e.target.value))}
         min={0}
